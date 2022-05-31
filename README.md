@@ -3,7 +3,9 @@
 ## app description
 
 > The app uses a dummy json database with a few books added
+
 > For now, the app is only fit for desktop use, as no mobile version was created yet
+
 > I will periodically update the app, so this README is only provisory
 
 ## engines
