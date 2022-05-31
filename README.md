@@ -12,7 +12,7 @@
 
 ```
 
-node v14.17.0
+node v16.17.0
 npm v8.10.0
 ember-cli v4.3.0
 
