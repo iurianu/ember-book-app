@@ -1,0 +1,127 @@
+aside {
+    &.sidebar {
+        width: 175px;
+        background-color: white;
+        position: absolute;
+        top: -65px;
+        right: 0;
+        bottom: 0;
+        border-left: 5px solid maroon;
+        border-image: url(../../assets/images/mahogany-background.jpg) 30 round;
+        background-image: url(../../assets/images/dark-mahon-bg.webp);
+        background-size: cover;
+        ul {
+            height: 180px;
+            @extend .clearbox;
+            border-bottom: 5px solid maroon;
+            border-image: url(../../assets/images/mahogany-background.jpg) 30 round;
+            li {
+                display: block;  
+                background-image: url(../../assets/images/mahogany-background.jpg); 
+                background-size: cover;
+                padding: 0.5rem;
+                width: 160px;
+                transform: rotate(75deg);
+                border-radius: 3px;
+                position: relative;
+                span {
+                    display: block;
+                    position: absolute;
+                    border-bottom: 1px solid darkslategrey;
+                    border-bottom-left-radius: 1px;
+                    border-bottom-right-radius: 3px;                    
+                    width: 37px;
+                    transform: rotate(-90deg);
+                    &.item-number {                        
+                        font-size: 10px;
+                        bottom: 10px;                         
+                        height: 15px;
+                        text-align: center;
+                        left: -10px;
+                        padding-bottom: 15px;
+                        color: darkslategrey;
+                    }
+                    &.bottom-model {
+                        right: 5px;
+                        bottom: 5px;
+                    }
+                }
+                a {
+                    &.button {
+                        display: block;
+                        width: 100%;
+                        margin-left: 1.2rem;
+                        text-decoration: none;
+                        font-size: 14px;
+                        color: darkslategrey;
+                    }
+                }
+                &:first-of-type {
+                    margin-left: -42px;
+                    margin-top: 75px;
+                }
+                &:nth-of-type(2) {
+                    margin-left: -6px;
+                    margin-top: -34px;
+                }
+            }
+            &.secondary {
+                @extend .clearbox;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;                
+                place-content: flex-end;
+                height: 160px;
+                border-bottom: 5px solid maroon;
+                border-image: url(../../assets/images/mahogany-background.jpg) 30 round;
+                align-content: center;
+                li {
+                    transform: none;
+                    width: 135px;
+                    margin-left: 0;
+                    margin-top: 0;
+                    padding: 3px 8px;
+                    font-size: 1rem;
+                    &:nth-of-type(2n+2) {
+                        margin-left: 1rem;
+                    }
+                }
+                &.policy-links {
+                    transform: rotate(90deg);
+                    border-bottom: 0;
+                    margin-left: 0;
+                    border-left: 5px solid maroon;
+                    place-content: end;
+                    li {
+                        width: 155px;
+                        margin-bottom: 0.1rem;
+                        &:nth-of-type(2n+2) {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.book-detailed {
+    display: flex;
+    flex-wrap: wrap;
+    .image {
+        width: 45%;
+        margin-left: 5%;
+        display: flex;
+        height: 560px;
+        place-content: center;
+        place-items: center;
+        margin-top: -0.5rem;
+        img {
+            height: 420px;
+        }
+    }
+    .description {
+        width: 40%;
+        margin: 3rem 3%;
+    }
+}

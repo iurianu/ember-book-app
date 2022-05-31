@@ -1,0 +1,35 @@
+.search-form {
+    label {
+        input {
+            background-color: burlywood;
+            border: 1px inset;
+            border-radius: .5rem;
+            line-height: 2ex;
+            &:focus-visible {
+                outline: none;
+            }
+        }
+    }
+    .search-results {
+        height: 200px;
+        overflow: hidden;
+        h3 {
+            font-size: 1.25rem;
+        }
+        picture {
+            display: none;
+        }
+        dl {
+            margin-bottom: 0;
+            dt {
+                display: none;
+            }
+            dd {
+                display: inline;
+                &:not(:first-of-type) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

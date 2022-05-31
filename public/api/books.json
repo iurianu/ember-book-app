@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "type": "books",
+      "id": "les-miserables",
+      "attributes": {
+        "title": "Les misérables",
+        "author": "Victor Hugo",
+        "category": "Novel",
+        "isbn": "123-0123456789",
+        "publisher": "ACME Publishing House",
+        "image": "https://m.media-amazon.com/images/I/51fyLYwnWwL.jpg",
+        "description": "C'est un roman historique, social et philosophique dans lequel on retrouve les idéaux du romantisme et ceux de Victor Hugo concernant la nature humaine. La préface résume clairement les intentions de l'auteur : « Tant que les trois problèmes du siècle, la dégradation de l'homme par le prolétariat, la déchéance de la femme par la faim, l'atrophie de l'enfant par la nuit, ne seront pas résolus ; en d'autres termes, et à un point de vue plus étendu encore, tant qu'il y aura sur la terre ignorance et misère, des livres de la nature de celui-ci pourront ne pas être inutiles »."
+      }
+    },
+    {
+      "type": "books",
+      "id": "great-expectations",
+      "attributes": {
+        "title": "Great Expectations",
+        "author": "Charles Dickens",
+        "category": "Drama",
+        "isbn": "213-0123456789",
+        "publisher": "ACME Publishing House",
+        "image": "https://cdn4.libris.ro/img/pozeprod/59/1002/70/11628771.jpg",
+        "description": "Great Expectations is the thirteenth novel by Charles Dickens and his penultimate completed novel. It depicts the education of an orphan nicknamed Pip (the book is a bildungsroman, a coming-of-age story). It is Dickens's second novel, after David Copperfield, to be fully narrated in the first person. The novel was first published as a serial in Dickens's weekly periodical All the Year Round, from 1 December 1860 to August 1861. In October 1861, Chapman and Hall published the novel in three volumes."
+      }
+    },
+    {
+      "type": "books",
+      "id": "the-time-machine",
+      "attributes": {
+        "title": "The Time Machine",
+        "author": "H.G. Wells",
+        "category": "Novella",
+        "isbn": "321-0123456789",
+        "publisher": "ACME Publishing House",
+        "image": "https://cdn4.libris.ro/img/pozeprod/59/1002/38/15546480.jpg",
+        "description": "When the Time Traveler courageously stepped out of his machine for the first time, he found himself in the year 802,700--and everything had changed. H.G. Wells's famous novel of one man's astonishing journey beyond the conventional limits of the imagination is regarded as one of the great masterpieces in the literature of science fiction. When the Time Traveller courageously stepped out of his machine for the first time, he found himself in the year 802,700--and everything had changed. In this unfamiliar, utopian age creatures seemed to dwell together in perfect harmony. The Time Traveller thought he could study these marvelous beings--unearth their secret and then return to his own time--until he discovered that his invention, his only avenue of escape, had been stolen."
+      }
+    }
+  ]
+}

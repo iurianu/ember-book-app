@@ -1,0 +1,47 @@
+@import './partials/resets';
+@import './partials/header';
+@import './partials/footer';
+
+@import './partials/modules/aside';
+@import './partials/modules/books';
+@import './partials/modules/book';
+@import './partials/modules/form';
+
+body {
+    background-image: url(../../assets/images/library-bg.jpg);
+    @extend .set-background-styles;
+}
+
+.content {
+    max-width: calc(100vw - 175px);
+}
+
+.mid-section {
+    background-image: url(../../assets/images/open-book.jpg);
+    @extend .set-background-styles;
+    width: 750px;
+    height: 560px;
+    background-size: contain;   
+    * {
+        font-family: 'Dancing Script', cursive;
+    } 
+    h1 {
+        font-size: 2rem;
+    }
+    p, address {
+        padding: 0 1.5rem;
+        > p {
+            padding: 0;
+        }
+        a {
+            font: inherit;
+        }
+    }
+}
+
+.map {
+    padding-top: 2rem;
+    img {
+        border: 1px inset rosybrown;
+    }
+}

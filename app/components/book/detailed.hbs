@@ -1,0 +1,47 @@
+<PageContent>
+  <section class="book-detailed" itemid="{{@book.isbn}}"> 
+
+    <Book::Image
+        title="{{@book.title}}"
+        src="https://m.media-amazon.com/images/I/51fyLYwnWwL.jpg"
+        src={{@book.image}}
+        alt="The cover for {{@book.title}}"
+    />  
+
+    <div class="description">
+      <h1>{{@book.title}}</h1>
+
+      <dl class="details d-flex justify-content-between">        
+          <dt>Author:     </dt>   <dd>    {{@book.author}}    </dd>
+          <dt>Category:   </dt>   <dd>    {{@book.category}}  </dd>
+          <dt>Publisher:  </dt>   <dd>    {{@book.publisher}} </dd>
+          <dt>ISBN:       </dt>   <dd>    {{@book.isbn}}      </dd>        
+      </dl>
+
+      <blockquote>
+        {{@book.description}}
+      </blockquote>
+      <span class="view-modal read-more d-block text-end text-decoration-underline" 
+            data-bs-toggle="modal"                 
+            data-bs-target="#detailsModal">
+        Read all description!
+      </span>
+    </div>   
+
+  </section>  
+
+  <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content pt-5">
+        <div class="modal-header">
+          <h5 class="modal-title" id="detailsModalLabel">{{@book.title}}</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="content-wrapper">{{@book.description}}</div>
+      </div>
+    </div>
+  </div>    
+
+</PageContent>
+
+<PageSidebar />

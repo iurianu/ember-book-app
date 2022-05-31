@@ -1,0 +1,49 @@
+
+.book-detailed {
+    .image {
+        img {
+            opacity: 0.8;
+        }
+    }
+    dl {
+        dt {
+            float: left;
+            width: 100px;
+        }
+        dd {
+            float: left;
+            width: calc(100% - 100px)
+        }
+    }
+    blockquote {
+        overflow-y: clip;
+        height: 140px;
+    }
+    .read-more {
+        &.view-modal {
+            cursor: pointer;
+        }
+    }
+}
+
+.modal-dialog {
+    background-position: center top;
+    background-image: url(../../assets/images/parchment.png);
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    .modal-content {
+        width: 80%;
+        padding-left: 15%;
+        background-color: transparent;
+        padding-top: 5rem;
+        border: none;
+        .modal-header {
+            border: none;
+            h5 {
+                font-weight: 700;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

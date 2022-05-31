@@ -1,0 +1,41 @@
+header {
+    &.menu  {
+        height: 65px;
+        background-color: transparent; //burlywood;
+        //background-image: url(../../assets/images/mahogany-background.jpg);
+        background-size: cover;
+        background-position: center center;
+        > [itemprop="logo"] {
+            a {
+                display: block;
+                img {
+                    display: block;
+                    width: 45px;
+                    height: auto;
+                    background-color: darkgrey;
+                    border-radius: 50%;
+                }
+            }
+        }
+        > [role="navigation"] {
+            display: none !important;
+            list-style: none;
+            li {
+                a {
+                    text-decoration: none;
+                    padding: 0.5rem 1rem;
+                    font-weight: 700;
+                    color: aliceblue;
+                    border: 2px outset burlywood;
+                    background-image: url(../../assets/images/mahogany-background.jpg);
+                    background-size: cover;
+                    border-radius: .5rem;
+                    &:hover, &:focus {
+                        border-style: inset;
+                        color: burlywood;
+                    }
+                }
+            }
+        }
+    }
+}

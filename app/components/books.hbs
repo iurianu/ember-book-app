@@ -1,0 +1,26 @@
+  <fieldset class="offset-md-1 col-md-4 p-5 pt-0 search-form">
+
+    <label class="d-flex flex-column" for="search">
+      <span>What would you like to read?</span>
+      <Input @value={{this.query}} class="light px-3 py-2" id="search" />
+    </label>
+    <ul class="results search-results mt-3">
+        <Books::Filter @books={{@books}} @query={{this.query}} as |items|>
+            {{#each items as |book|}}
+                <li><Book @book={{book}} /></li>
+            {{/each}}
+        </Books::Filter>
+    </ul> 
+</fieldset>
+
+<div class="col-md-4 pt-5 books">
+    
+    <h2>Latest additions</h2>
+
+    <ul class="results m-0">
+        {{#each @books as |book|}}
+            <li><Book @book={{book}} /></li>
+        {{/each}}
+    </ul>
+
+</div>

@@ -1,0 +1,27 @@
+
+<article class="book pb-1">
+
+    <h3 class="title m-0">{{@book.title}}</h3>
+
+    <Book::Image
+        title="click to change size!"
+        src="https://m.media-amazon.com/images/I/51fyLYwnWwL.jpg"
+        src={{@book.image}}
+        alt="The cover for {{@book.title}}"
+    />  
+
+    <dl class="details d-flex justify-content-between">
+        <dt>Author:     </dt>   <dd>    {{@book.author}}    </dd>
+        <dt>Category:   </dt>   <dd>    {{@book.category}}  </dd>
+        <dt>Publisher:  </dt>   <dd>    {{@book.publisher}} </dd>
+        <dt>ISBN:       </dt>   <dd>    {{@book.isbn}}      </dd>  
+        <dd class="read-more">
+            <LinkTo @route="book" @model={{@book}}>
+                Read the description!
+            </LinkTo>
+        </dd>
+    </dl>
+
+    <blockquote class="d-none">{{@book.description}}</blockquote>
+    
+</article>
