@@ -1,9 +1,8 @@
 <PageContent>
-  <section class="book-detailed" itemid="{{@book.isbn}}"> 
+  <section class="book-detailed d-flex justify-content-center align-items-center" itemid="{{@book.isbn}}"> 
 
     <Book::Image
         title="{{@book.title}}"
-        src="https://m.media-amazon.com/images/I/51fyLYwnWwL.jpg"
         src={{@book.image}}
         alt="The cover for {{@book.title}}"
     />  

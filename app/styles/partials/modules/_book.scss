@@ -1,7 +1,11 @@
-
 .book-detailed {
     .image {
+        width: 45%;
+        margin-left: 5%;
+        height: 560px;
+        margin-top: -0.5rem;        
         img {
+            height: 420px;
             opacity: 0.8;
         }
     }
@@ -19,6 +23,10 @@
         overflow-y: clip;
         height: 140px;
     }
+    .description {
+        width: 40%;
+        margin: 3rem 3%;
+    }
     .read-more {
         &.view-modal {
             cursor: pointer;
@@ -27,11 +35,9 @@
 }
 
 .modal-dialog {
-    background-position: center top;
+    @extend .set-background-styles;
     background-image: url(../../assets/images/parchment.png);
-    background-size: cover;
     background-color: transparent;
-    background-repeat: no-repeat;
     .modal-content {
         width: 80%;
         padding-left: 15%;
