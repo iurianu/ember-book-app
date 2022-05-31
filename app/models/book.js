@@ -5,7 +5,7 @@ export default class BookModel extends Model {
   @attr author;
   @attr publisher;
   @attr isbn;
-  @attr category;
+  @attr genre;
   @attr image;
   @attr description;
 

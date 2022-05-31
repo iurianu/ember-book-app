@@ -5,7 +5,7 @@
     "attributes": {
       "title": "Les misérables",
       "author": "Victor Hugo",
-      "category": "Novel",
+      "genre": "Drama",
       "isbn": "123-0123456789",
       "publisher": "ACME Publishing House",
       "image": "https://m.media-amazon.com/images/I/51fyLYwnWwL.jpg",

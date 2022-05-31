@@ -6,7 +6,7 @@
       "attributes": {
         "title": "Les misérables",
         "author": "Victor Hugo",
-        "category": "Novel",
+        "genre": "Drama",
         "isbn": "123-0123456789",
         "publisher": "ACME Publishing House",
         "image": "https://m.media-amazon.com/images/I/51fyLYwnWwL.jpg",
@@ -19,7 +19,7 @@
       "attributes": {
         "title": "Great Expectations",
         "author": "Charles Dickens",
-        "category": "Drama",
+        "genre": "Thriller",
         "isbn": "213-0123456789",
         "publisher": "ACME Publishing House",
         "image": "https://cdn4.libris.ro/img/pozeprod/59/1002/70/11628771.jpg",
@@ -32,7 +32,7 @@
       "attributes": {
         "title": "The Time Machine",
         "author": "H.G. Wells",
-        "category": "Novella",
+        "genre": "S.F.",
         "isbn": "321-0123456789",
         "publisher": "ACME Publishing House",
         "image": "https://cdn4.libris.ro/img/pozeprod/59/1002/38/15546480.jpg",

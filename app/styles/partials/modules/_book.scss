@@ -7,11 +7,11 @@
     }
     dl {
         dt {
-            float: left;
+            @extend .float-start;
             width: 100px;
         }
         dd {
-            float: left;
+            @extend .float-start;
             width: calc(100% - 100px)
         }
     }

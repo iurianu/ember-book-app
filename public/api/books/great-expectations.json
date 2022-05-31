@@ -5,7 +5,7 @@
     "attributes": {
       "title": "Great Expectations",
       "author": "Charles Dickens",
-      "category": "Novel",
+      "genre": "Thriller",
       "isbn": "213-0123456789",
       "publisher": "ACME Publishing House",
       "image": "https://cdn4.libris.ro/img/pozeprod/59/1002/70/11628771.jpg",
